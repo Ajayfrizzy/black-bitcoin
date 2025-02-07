@@ -1,0 +1,111 @@
+@import url(https://db.onlinewebfonts.com/c/a78ebd77ebc553fcdb4ac60026baa019?family=Casio+fx-9860GII+Regular);
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background: #1C1C1C;
+  --navcolor: #e8e8e8;
+  --herocolor: #A6A6A6;
+  --partnercolor: #D5D5D5;
+}
+
+body {
+  color: var(--navcolor);
+  background: var(--background);
+  font-family: "Casio fx-9860GII Regular", "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.hero{
+  background-image: url('/asset/star.svg');
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  border-radius: 2rem;
+}
+
+.sh{
+  box-shadow: 5px 4px #A3A3A3;
+}
+
+.sh:hover{
+  box-shadow: 5px 7px #000;
+  background-color: #1C1C1C;
+  color: #D5D5D5;
+  transition: ease-in-out 3ms;
+}
+
+.sh1, .sh2{
+  box-shadow: 2.5px 2px #A3A3A3;
+  padding: 1rem 3rem;
+  font-size: 0.7rem;
+}
+
+.sh1:hover, .sh2:hover{
+  box-shadow: 2.5px 2px #000;
+  background-color: #1C1C1C;
+  color: #D5D5D5;
+  transition: ease-in-out 3ms;
+}
+
+.background{
+  background-image: url('/asset/cream-background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.unique{
+  background-image: url("/asset/unique-dk.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.howtoshadow{
+  box-shadow: 3px 3.5px #000;
+}
+
+.howtoshadow:hover{
+  box-shadow: 3px 3.5px #000;
+  background-color: #1C1C1C;
+  color: #D5D5D5;
+  transition: ease-in-out 3ms;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .sh{
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+  }
+  
+  .sh1{
+    width: 70%;
+    margin: auto;
+    /* padding: .5rem 2rem; */
+    font-size: 0.7rem;
+  }
+
+  .sh2{
+    padding: .5rem 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .unique{
+    background-image: url("/asset/unique-mb.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+}
+
