@@ -42,8 +42,8 @@ const page = () => {
       <ul className="list-disc md:text-xl text-sm text-[#000] bg-[#FDFBD4] rounded-sm text-justify px-8 py-4 mx-auto w-[80%]">
         <li className="my-1">NATIVE REFLECTIONS </li>
         <li className="my-1">ACCESS TO  MENTORSHIP: For  premium holders only</li>
-        <p className="my-1">Premium holders are holders with 1% supply of $BBitcoin..</p>
-        <p className="my-1">Premium holders criteria will be adjustable as the marketcap grows.</p>
+        <p className="my-1 tracking-[-0.1rem]">Premium holders are holders with 1% supply of $BBitcoin..</p>
+        <p className="my-1 tracking-[-0.1rem]">Premium holders criteria will be adjustable as the marketcap grows.</p>
         <li className="my-1">EARLY ACCESS TO FUTURE UTILITIES</li> 
       </ul>
       <div className="mt-8 flex flex-col md:flex-row justify-center gap-4 text-[1.25rem]">
