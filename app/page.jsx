@@ -35,7 +35,7 @@ const page = () => {
     </section>
 
     <section className="max-w-7xl mx-auto mt-12 mb-[10rem] text-center">
-      <h3 className="text-[#000] bg-[#FDFBD4] py-4 mx-auto w-[90%] md:w-[80%] md:text-4xl text-3xl rounded-sm">About BlackBitcoin</h3>
+      <h3 className="text-[#000] bg-[#FDFBD4] py-4 mx-auto w-[90%] md:w-[80%] md:text-4xl text-3xl rounded-md">About BlackBitcoin</h3>
       <p className="my-5 text-[#A6A6A6] px-4 md:px-[7rem] md:text-xl text-sm">Black Bitcoin is a memecoin made for Bitcoin Lovers and all those who missed Bitcoin. It the younger brother of Bitcoin.</p>
       <p className="my-5 text-[#000] bg-[#FDFBD4] mx-auto w-[80%] rounded-sm py-4 px-4 md:px-[7rem] md:text-xl text-sm">BENEFITS OF HOLDING PREMIUM PERCENTAGE (%) OF  BLACK BITCOIN AT $500K MARKET CAP
       </p>
