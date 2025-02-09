@@ -37,7 +37,7 @@ const Howto = () => {
               <span className="w-8 h-8 flex items-center justify-center text-black bg-[#767676] text-[0.7rem] text-[#1C1C1C] rounded-full font-bold">
                 2
               </span>
-              <span className="font-medium">Open Solana Wallet</span>
+              <span className="font-medium">Open Pancakeswap</span>
             </div>
             <button className="bg-[#FFFDD0] text-black md:px-6 md:py-2 p-2 md:mt-0 mt-3 rounded-[48px] transition md-text[1.2rem] text-[0.7rem] howtoshadow">
               Open pancakeswap
