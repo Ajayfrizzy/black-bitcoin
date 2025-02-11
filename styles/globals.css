@@ -45,7 +45,7 @@ body {
 .sh1, .sh2{
   box-shadow: 2.5px 2px #A3A3A3;
   padding: 1rem 3rem;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .sh1:hover, .sh2:hover{

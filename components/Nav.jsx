@@ -24,7 +24,7 @@ const Nav = () => {
           height={50}
           priority
         />
-        <span className="text-2xl font-semibold sm:text-xl">BlackBitcoin</span>
+        <span className="md:text-2xl font-semibold sm:text-lg">BlackBitcoin</span>
       </div>
 
       {/* Desktop Navigation */}
