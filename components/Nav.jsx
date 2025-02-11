@@ -32,9 +32,10 @@ const Nav = () => {
         <Link href="/" className="bg-black text-[#E8E8E8] px-4 py-2 rounded-full hover:bg-[#FDFBD4] hover:text-[#1C1C1C] transition">
             Home
         </Link>
-        <a href="#" className="text-white hover:text-gray-300 transition">
-          Whitepaper
-        </a>
+  
+        <Link href="/roadmap" className="text-white hover:text-gray-300 transition">
+          Roadmap
+        </Link>
       </div>
 
       {/* Social Media Links (Desktop) */}
@@ -65,9 +66,9 @@ const Nav = () => {
         <Link href="/" className="text-white text-lg hover:text-gray-300">
           Home
         </Link>
-        <a href="#" className="text-white text-lg hover:text-gray-300">
-          Whitepaper
-        </a>
+        <Link href="/roadmap" className="text-white text-lg hover:text-gray-300">
+         Roadmap
+        </Link>
         <p className="text-white text-[center]">Join</p>
         <div className="flex gap-4 text-white text-2xl">
           <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer">
