@@ -39,9 +39,9 @@ const Howto = () => {
               </span>
               <span className="font-medium md:text-[1.2rem] text-[0.7rem] flex items-center">Open Pancakeswap</span>
             </div>
-            <button className="bg-[#FFFDD0] text-black md:px-6 md:py-2 p-2 md:mt-0 mt-3 rounded-[48px] transition md-text[1.2rem] text-[0.7rem] howtoshadow">
+            <a href='https://www.pancakeswap.finance/' target='_blank' className="bg-[#FFFDD0] text-black md:px-6 md:py-2 p-2 md:mt-0 mt-3 rounded-[48px] transition md-text[1.2rem] text-[0.7rem] howtoshadow">
               Open pancakeswap
-            </button>
+            </a>
           </div>
           <div className="absolute bottom-0 right-20">
             <img
@@ -60,9 +60,9 @@ const Howto = () => {
               </span>
               <span className="font-medium md:text-[1.2rem] text-[0.7rem] flex items-center">Swap to BlackBitcoin</span>
             </div>
-            <button className="bg-[#FFFDD0] text-black md:px-6 md:py-2 p-2 mt-3 md:mt-0 rounded-[48px] transition md-text[1.2rem] text-[0.7rem] howtoshadow">
+            <a href='https://www.pancakeswap.finance/' target='_blank' className="bg-[#FFFDD0] text-black md:px-6 md:py-2 p-2 mt-3 md:mt-0 rounded-[48px] transition md-text[1.2rem] text-[0.7rem] howtoshadow">
               Open pancakeswap
-            </button>
+            </a>
           </div>
           <div className="absolute bottom-0 right-20">
             <img
