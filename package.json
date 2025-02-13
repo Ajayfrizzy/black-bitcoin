@@ -5,10 +5,9 @@
   "scripts": {
     "dev": "next dev && node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "next start && NODE_ENV=production node server.js",
     "lint": "next lint",
-    "start": "NODE_ENV=production node server.js",
-     "export": "next build && next export"
+     "export": "next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
