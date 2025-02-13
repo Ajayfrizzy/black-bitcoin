@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev && node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start && NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
-     "export": "next build"
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
