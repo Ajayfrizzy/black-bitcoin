@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+:root{
+  --background: #1C1C1C;
+  --navcolor: #e8e8e8;
+  --herocolor: #A6A6A6;
+  --partnercolor: #D5D5D5;
+}
+
+body {
+  color: var(--navcolor);
+  background: var(--background);
+  font-family: "Space Grotesk", "Geist", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.geist{
+  font-family: "Geist", sans-serif;
+}
+
+.space-grotesk{
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.line{
+  line-height: 0.9;
+}
+
+.shadow{
+  box-shadow: 2.57px 3.22px 0 #1E1E1E;
+}
