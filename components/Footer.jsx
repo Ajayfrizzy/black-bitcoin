@@ -1,30 +1,27 @@
+import Link from "next/link";
+
 const TWITTER_URL = "http://X.com/blackbitcoinerz";
 const TELEGRAM_URL = "https://t.me/blackbitcoiners";
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl mx-auto mt-12 mb-6">
-      <section className="text-center bg-[#000] h-[40vh] flex flex-col items-center justify-center text-white rounded-xl md:w-full md:max-w-4xl md:mx-auto m-2">
-        <h3 className="text-[0.9rem] md:text-2xl">Join Our Global Community</h3>
-
-        <div className="flex md:flex-row flex-col gap-4 mt-5">
-          <a
-            href={TWITTER_URL} target="_blank"
-            className="text-[#1C1C1C] bg-[#FDFBD4] rounded-full sh2"
-          >
-            Twitter
-          </a>
-          <a
-            href={TELEGRAM_URL} target="_blank"
-            className="text-[#1C1C1C] bg-[#FDFBD4] rounded-full sh2"
-          >
-            Telegram
-          </a>
+      <>
+      <footer className="bg-[url(/asset/footer-bg.svg)] bg-cover bg-center bg-no-repeat">
+      <section className="max-w-7xl mx-auto py-[6rem] px-4 text-center">
+        <h2 className="text-[2.5rem] font-bold">Join Our Global Community</h2>
+        <div className="flex justify-center gap-4 mt-4 text-[#D4D4D4]">
+          <div>
+            <Link href={TWITTER_URL} target="_blank" className="bg-[#2B2B2B] px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition">Twitter</Link>
+          </div>
+          <div>
+            <Link href={TELEGRAM_URL} target="_blank" className="bg-[#2B2B2B] px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition">Telegram</Link>
+          </div>
         </div>
       </section>
 
-      <p className="pt-[3rem] pb-[1rem] text-[0.8rem] md:text-[1.2rem] text-center text-[#D5D5D5]">@Copywrite 2025 - BlackBitcoin All right reserved</p>
     </footer>
+      <p className="text-center pt-[4rem] pb-[2rem] px-[2rem]">@Copywrite 2025 - BlackBitcoin All right reserved</p>
+      </>
   );
 };
 

@@ -5,6 +5,7 @@ import Benefits from "../components/Benefits";
 import Unique from "../components/Unique";
 import Tokenomics from "../components/Tokenomics";
 import Howto from "../components/Howto";
+import Footer from "../components/Footer";
 
 
 const page = () => {
@@ -53,6 +54,7 @@ const page = () => {
    <Unique/>
    <Tokenomics/>
    <Howto/>
+   <Footer/>
     </>
   )
 }
