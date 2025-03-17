@@ -4,10 +4,13 @@ const Tokenomics = () => {
   return (
     <>
     <div className="max-w-7xl mx-auto text-center md:my-[3rem] md:py-0 py-[4rem]">
-      <h2 className="geist font-bold md:text-[2.5rem] text-[2rem]">BlackBitcoin Tokenomics</h2>
+      <h2 className="geist font-bold md:text-[2.5rem] text-[1.8rem]">BlackBitcoin Tokenomics</h2>
       <div className="flex md:flex-row flex-col justify-center items-center mt-[4rem] mb-[3rem] space-grotesk">
-        <div>
+        <div className="md:block hidden">
           <Image src="/asset/pie_chart.svg" alt="pie chart" width={351} height={341} />
+        </div>
+        <div className="md:hidden block mb-5">
+          <Image src="/asset/pie_chart.svg" alt="pie chart" width={250} height={250} />
         </div>
         <div className="text-left md:ml-[4rem] md:mx-0 mx-auto">
           <ul>

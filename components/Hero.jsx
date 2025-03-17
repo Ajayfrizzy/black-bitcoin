@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row mt-6 gap-4">
           <a
             href="#"
-            className="text-[#020202] bg-[#FFEC43] rounded-full px-6 md:px-[3rem] py-3 flex items-center justify-center"
+            className="text-[#020202] bg-[#FFD70F] hover:bg-[#2B2B2B] rounded-full px-6 md:px-[3rem] py-3 flex items-center justify-center transition hover:text-[#DADADA]"
           >
             <Image
               src="/asset/copy-icon.svg"
@@ -36,7 +36,7 @@ const Hero = () => {
             href={Pancake}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-grey bg-[#2B2B2B] rounded-full px-6 md:px-[3rem] py-3 flex items-center justify-center"
+            className="text-grey bg-[#2B2B2B] rounded-full px-6 md:px-[3rem] py-3 flex items-center justify-center hover:bg-[#FFD70F] transition hover:text-[#020202]"
           >
             <Image
               src="/asset/buy-icon.svg"

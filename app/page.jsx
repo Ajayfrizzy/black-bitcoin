@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
    <Hero/>
-   <div className="bg-[yellow] bg-[url(/asset/first-bg-picture.svg)] bg-cover bg-center bg-no-repeat h-[20vh] w-full mt-[6rem]">
+   <div className="bg-[#FFD70F] bg-[url(/asset/first-bg-picture.svg)] bg-cover bg-center bg-no-repeat h-[20vh] w-full mt-[6rem]">
     <div className="flex justify-center items-center gap-[1.2rem] md:gap-[7rem] max-w-7xl mx-auto py-[2rem] text-[#000] text-center space-grotesk">
     <div>
       <p className="font-bold text-[1.1rem] md:text-[1.8rem]">$0.0001</p>
