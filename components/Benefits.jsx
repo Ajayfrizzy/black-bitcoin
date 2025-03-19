@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "@styles/globals.css";
 
 const Benefits = () => {
   return (
@@ -26,25 +27,25 @@ const Benefits = () => {
         <ul className="my-[1rem] space-y-2 flex-grow">
           <li className="flex items-start gap-3 leading-tight">
             <div className="w-[24px] h-[24px] flex-shrink-0">
-              <img src="/asset/star.svg" alt="Star" className="bg-[yellow] p-1 rounded-full w-full h-full" />
+              <img src="/asset/star.svg" alt="Star" className="bg-[#FFD70F] p-1 rounded-full w-full h-full" />
             </div>
             <span>Premium holders are investors holding 1% supply of $BBTC</span>
           </li>
           <li className="flex items-start gap-3 leading-tight">
             <div className="w-[24px] h-[24px] flex-shrink-0">
-              <img src="/asset/star.svg" alt="Star" className="bg-[yellow] p-1 rounded-full w-full h-full" />
+              <img src="/asset/star.svg" alt="Star" className="bg-[#FFD70F] p-1 rounded-full w-full h-full" />
             </div>
             <span>Access to trading academy and mentorship</span>
           </li>
           <li className="flex items-start gap-3 leading-tight">
             <div className="w-[24px] h-[24px] flex-shrink-0">
-              <img src="/asset/star.svg" alt="Star" className="bg-[yellow] p-1 rounded-full w-full h-full" />
+              <img src="/asset/star.svg" alt="Star" className="bg-[#FFD70F] p-1 rounded-full w-full h-full" />
             </div>
             <span>First users of DexSwap and Wallet</span>
           </li>
           <li className="flex items-start gap-3 leading-tight">
             <div className="w-[24px] h-[24px] flex-shrink-0">
-              <img src="/asset/star.svg" alt="Star" className="bg-[yellow] p-1 rounded-full w-full h-full" />
+              <img src="/asset/star.svg" alt="Star" className="bg-[#FFD70F] p-1 rounded-full w-full h-full" />
             </div>
             <span>1 month (20%) Dexswap and wallet validators’ fees split with team.</span>
           </li>
@@ -54,7 +55,7 @@ const Benefits = () => {
         <div className="py-[1rem] flex justify-center md:justify-start">
           <Link
             href="/roadmap"
-            className="block w-full md:w-[50%] py-[0.8rem] px-[1.2rem] bg-[yellow] font-bold text-[0.7rem] text-[#000] rounded-full text-center hover:text-[#A6A6A6] hover:bg-[#2B2B2B] transition">
+            className="block w-full md:w-[50%] py-[0.8rem] px-[1.2rem] bg-[#FFD70F] font-bold text-[0.7rem] text-[#000] rounded-full text-center hover:text-[#A6A6A6] hover:bg-[#2B2B2B] transition">
             Read Whitepaper
           </Link>
         </div>

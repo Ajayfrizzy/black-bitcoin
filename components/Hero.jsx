@@ -8,8 +8,8 @@ const Hero = () => {
     <div className="max-w-7xl mx-auto my-10 flex flex-col-reverse md:flex-row items-center px-5">
       {/* Left Section */}
       <div className="flex-1 text-center md:text-left">
-        <h1 className="text-[40px] md:text-[60px] text-[#656565] font-bold geist my-5 line md:w-[80%] sm:w-[100%]">
-          Made For all <span className="text-[#DADADA]">Bitcoin Lovers</span>
+        <h1 className="text-[40px] md:text-[60px] text-[#656565] font-bold geist my-5 line">
+          Made For all <span className="text-[#DADADA] block">Bitcoin Lovers</span>
         </h1>
         <p className="w-full md:w-[70%] py-3">
           A community-driven token built on the Binance Smart Chain aimed at

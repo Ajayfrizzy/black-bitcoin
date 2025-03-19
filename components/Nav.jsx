@@ -4,6 +4,8 @@ import "@styles/globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { LiaTelegram } from "react-icons/lia";
+import { FaXTwitter } from "react-icons/fa6";
 import { useState } from "react";
 
 const TWITTER_URL = "https://x.com/blackbitcoinerz";
@@ -25,7 +27,7 @@ const Nav = () => {
             height={30}
             priority
           />
-          <span className="text-[24px] geist">BBitcoin</span>
+          <span className="text-[1.2rem] geist">Blackbitcoin</span>
         </div>
       </Link>
 
@@ -75,11 +77,11 @@ const Nav = () => {
           Whitepaper
         </Link>
         </div>
-        <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-          X(Twitter)
+        <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition flex items-center gap-2">
+        <FaXTwitter />X(Twitter)
         </a>
-        <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition">
-          Telegram
+        <a href={TELEGRAM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition flex items-center gap-2">
+        <LiaTelegram />Telegram
         </a>
       </div>
     </nav>

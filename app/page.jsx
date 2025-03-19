@@ -46,7 +46,7 @@ const page = () => {
           <Image src="/asset/partner_1.svg" alt="Partner 1" width={200} height={200}/>
           <Image src="/asset/partner_2.svg" alt="Partner 2" width={200} height={200} className="px-[1.2rem]"/>
           <Image src="/asset/partner_3.svg" alt="Partner 3" width={200} height={200} className="px-[1.2rem]"/>
-          <Image src="/asset/partner_4.svg" alt="Partner 4" width={200} height={200}/>
+          <Image src="/asset/partner_4.svg" alt="Partner 4" width={200} height={150}/>
       </div>
         </marquee>
    </div>

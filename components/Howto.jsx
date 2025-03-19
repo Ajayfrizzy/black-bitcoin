@@ -21,7 +21,7 @@ const Howto = () => {
               <p className="text-[#fff] text-[12px] ml-8 mb-6">
                 Buy $BNB from your favorite exchange
               </p>
-              <div className="bg-[#353535] rounded-2xl w-[70%] mx-auto pt-4 flex flex-col items-center justify-center md:hover:bg-[##FFD70F] transition">
+              <div className="bg-[#353535] rounded-2xl w-[70%] mx-auto pt-4 flex flex-col items-center justify-center md:hover:bg-[#FFD70F] transition">
                 <div className="bg-[#141414] rounded-xl md:p-[3rem] p-[1.3rem] flex items-center justify-center">
                   <Image
                     src="/asset/howto_1.svg"
@@ -52,7 +52,7 @@ const Howto = () => {
                 Open any DEX of your choice, eg Pancake Swap and connect to your
                 wallet
               </p>
-              <div className="bg-[#353535] rounded-2xl w-[70%] mx-auto pt-4 flex flex-col items-center justify-center md:hover:bg-[##FFD70F] transition">
+              <div className="bg-[#353535] rounded-2xl w-[70%] mx-auto pt-4 flex flex-col items-center justify-center md:hover:bg-[#FFD70F] transition">
                 <div className="bg-[#141414] rounded-xl md:p-[3rem] p-[1.3rem] flex items-center justify-center">
                   <Image
                     src="/asset/howto_2.svg"
