@@ -1,9 +1,5 @@
 import "@styles/globals.css";
 import Nav from "../components/Nav";
-// import Hero from "../components/Hero"
-// import Tokenomics from "components/Tokenomics";
-// import Howto from "components/Howto";
-// import Footer from "components/Footer";
 
 export const metadata = {
   title: "Black Bitcoin",
