@@ -18,7 +18,7 @@ const Footer = () => {
         viewport={{ once: true, margin: "-100px" }}
       >
         <motion.h2 
-          className="text-[2.5rem] font-bold"
+          className="text-[1.8rem] sm:text-[2rem] md:text-[2.5rem] font-bold"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -27,7 +27,7 @@ const Footer = () => {
           Join Our Global Community
         </motion.h2>
         <motion.div 
-          className="flex justify-center gap-4 mt-4 text-[#D4D4D4]"
+          className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-4 text-[#D4D4D4]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
@@ -43,7 +43,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href={TWITTER_URL} target="_blank" className="bg-[#2B2B2B] px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition">Twitter</Link>
+              <Link href={TWITTER_URL} target="_blank" className="bg-[#2B2B2B] px-4 sm:px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition text-sm sm:text-base">Twitter</Link>
             </motion.div>
           </motion.div>
           <motion.div
@@ -56,7 +56,7 @@ const Footer = () => {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href={TELEGRAM_URL} target="_blank" className="bg-[#2B2B2B] px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition">Telegram</Link>
+              <Link href={TELEGRAM_URL} target="_blank" className="bg-[#2B2B2B] px-4 sm:px-6 py-2 rounded-full hover:bg-[#1C1C1C] hover:text-[#e8e8e8] transition text-sm sm:text-base">Telegram</Link>
             </motion.div>
           </motion.div>
         </motion.div>

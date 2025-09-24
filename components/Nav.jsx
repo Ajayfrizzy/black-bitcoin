@@ -18,12 +18,11 @@ const Nav = () => {
 
   return (
     <motion.nav 
-      className="relative max-w-7xl mx-auto px-6 py-6 flex justify-between items-center text-white"
+      className="relative max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex justify-between items-center text-white"
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      {/* Logo and Brand */}
       <Link href="/">
         <motion.div 
           className="flex items-center gap-2"
@@ -42,11 +41,10 @@ const Nav = () => {
               priority
             />
           </motion.div>
-          <span className="text-[1.2rem] geist">Blackbitcoin</span>
+          <span className="text-[1rem] sm:text-[1.2rem] geist">Blackbitcoin</span>
         </motion.div>
       </Link>
 
-      {/* Desktop Navigation */}
       <motion.div 
         className="hidden md:flex justify-between items-center gap-4 rounded-full px-5 py-2 text-grey text-[14.65px] space-grotesk"
         initial={{ opacity: 0, y: -10 }}
@@ -83,7 +81,6 @@ const Nav = () => {
         </motion.a>
       </motion.div>
 
-      {/* Buy Link - Only for Desktop */}
       <motion.div 
         className="hidden md:block text-grey text-[14.65px] space-grotesk"
         initial={{ opacity: 0, x: 20 }}
@@ -103,7 +100,6 @@ const Nav = () => {
         </motion.a>
       </motion.div>
 
-      {/* Mobile Menu Button */}
       <motion.button 
         className="md:hidden text-2xl" 
         onClick={() => setIsOpen(!isOpen)}
@@ -115,7 +111,6 @@ const Nav = () => {
         <GiHamburgerMenu />
       </motion.button>
 
-      {/* Full-Screen Overlay */}
       <AnimatePresence>
         {isOpen && (
           <motion.div 
@@ -129,19 +124,17 @@ const Nav = () => {
         )}
       </AnimatePresence>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
           <motion.div 
-            className="fixed top-6 right-1 h-75 w-[75%] bg-[#2F2F2F] p-6 flex flex-col items-center space-y-6 rounded-4xl z-50"
+            className="fixed top-4 right-2 h-auto w-[85%] sm:w-[75%] bg-[#2F2F2F] p-4 sm:p-6 flex flex-col items-center space-y-4 sm:space-y-6 rounded-2xl z-50"
             initial={{ x: "100%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: "100%", opacity: 0 }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           >
-            {/* Close Button */}
             <motion.button 
-              className="absolute top-3 right-6 text-white text-3xl" 
+              className="absolute top-2 right-4 text-white text-2xl sm:text-3xl" 
               onClick={() => setIsOpen(false)}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -152,9 +145,8 @@ const Nav = () => {
               ✕
             </motion.button>
 
-            {/* Menu Links */}
             <motion.div 
-              className="bg-[#444444] w-full rounded-3xl p-4 flex flex-col items-center gap-4 mt-6"
+              className="bg-[#444444] w-full rounded-2xl p-3 sm:p-4 flex flex-col items-center gap-3 sm:gap-4 mt-4 sm:mt-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -163,7 +155,7 @@ const Nav = () => {
                 href={PANKCAKE} 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-white text-center py-3 px-[5rem] bg-black rounded-full hover:text-blue-300 transition"
+                className="text-white text-center py-2 sm:py-3 px-8 sm:px-[5rem] bg-black rounded-full hover:text-blue-300 transition text-sm sm:text-base"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

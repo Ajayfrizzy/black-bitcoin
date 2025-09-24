@@ -15,14 +15,14 @@ const Benefits = () => {
     >
       {/* First Section */}
       <motion.div 
-        className="md:w-[45%] w-full md:mb-0 mb-[3rem] px-[2.5rem] text-center md:text-left flex flex-col"
+        className="md:w-[45%] w-full md:mb-0 mb-[3rem] px-4 sm:px-[2.5rem] text-center md:text-left flex flex-col"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true }}
       >
         <motion.h2 
-          className="geist font-bold text-[20px] md:text-[30px]"
+          className="geist font-bold text-[18px] sm:text-[20px] md:text-[30px]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}

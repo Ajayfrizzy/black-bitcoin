@@ -16,7 +16,7 @@ const Howto = () => {
           viewport={{ once: true, margin: "-100px" }}
         >
           <motion.h2 
-            className="font-bold md:text-[2.5rem] text-[1.9rem] text-center"
+            className="font-bold text-[1.5rem] sm:text-[1.9rem] md:text-[2.5rem] text-center px-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -26,7 +26,7 @@ const Howto = () => {
           </motion.h2>
           
           <motion.div 
-            className="flex md:flex-row flex-col gap-5 mt-[3rem]"
+            className="flex md:flex-row flex-col gap-4 sm:gap-5 mt-[3rem] px-4"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
@@ -34,7 +34,7 @@ const Howto = () => {
           >
             {/* Step 1 */}
             <motion.div 
-              className="flex-1 bg-[#444444] rounded-xl md:w-full w-[80%] md:mx-0 mx-auto md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
+              className="flex-1 bg-[#444444] rounded-xl w-full md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}

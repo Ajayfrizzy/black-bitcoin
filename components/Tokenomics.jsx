@@ -14,7 +14,7 @@ const Tokenomics = () => {
       viewport={{ once: true, margin: "-100px" }}
     >
       <motion.h2 
-        className="geist font-bold md:text-[2.5rem] text-[1.8rem]"
+        className="geist font-bold text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] px-4"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
@@ -50,7 +50,7 @@ const Tokenomics = () => {
           <Image src="/asset/pie_chart.svg" alt="pie chart" width={250} height={250} />
         </motion.div>
         <motion.div 
-          className="text-left md:ml-[4rem] md:mx-0 mx-auto"
+          className="text-left md:ml-[4rem] md:mx-0 mx-auto px-4 sm:px-0"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}

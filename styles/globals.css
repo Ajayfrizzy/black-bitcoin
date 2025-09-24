@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .geist{
@@ -35,4 +36,61 @@ body {
 
 .shadow{
   box-shadow: 2.57px 3.22px 0 #1E1E1E;
+}
+
+/* Responsive utilities */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal scroll on all elements */
+html {
+  overflow-x: hidden;
+}
+
+/* Container max-width for consistent responsive design */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+/* Partner scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 15s linear infinite;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Fix image responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
 }

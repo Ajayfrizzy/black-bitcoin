@@ -15,10 +15,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="overflow-x-hidden">
 
         <Nav/>
-        {children}
+        <main className="min-h-screen">
+          {children}
+        </main>
         {/* <Footer/> */}
       </body>
     </html>

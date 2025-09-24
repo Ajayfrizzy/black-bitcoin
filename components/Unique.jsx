@@ -16,7 +16,7 @@ const Unique = () => {
         viewport={{ once: true, margin: "-100px" }}
       >
         <motion.h2 
-          className="font-bold md:text-[2.5rem] text-[26px] pb-[6rem]"
+          className="font-bold text-[1.5rem] sm:text-[26px] md:text-[2.5rem] pb-[3rem] sm:pb-[6rem] px-4"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -42,7 +42,7 @@ const Unique = () => {
             <Image src="/asset/unique_line.svg" alt="Unique Long Line" width={1} height={0} className="w-[100%]"/>
           </motion.div>
 
-          <div className="flex flex-col md:flex-row md:justify-between items-center md:px-[3rem] font-bold">
+          <div className="flex flex-col md:flex-row md:justify-between items-center px-4 sm:px-[3rem] font-bold gap-6 md:gap-0">
           <motion.div 
             className="md:z-10"
             initial={{ opacity: 0, x: -50 }}
@@ -51,8 +51,8 @@ const Unique = () => {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05, y: -5 }}
           >
-            <Image src="/asset/unique_1.svg" alt="Unique 1" width={150} height={150} />
-            <p className="pt-3">Community</p>
+            <Image src="/asset/unique_1.svg" alt="Unique 1" width={120} height={120} className="sm:w-[150px] sm:h-[150px]" />
+            <p className="pt-3 text-sm sm:text-base">Community</p>
           </motion.div>
 
             {/* For Mobile */}
@@ -78,9 +78,9 @@ const Unique = () => {
               animate={{ rotate: [0, 5, -5, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
-              <Image src="/asset/black-bitcoin-logo.gif" alt="Unique 2" width={150} height={150} unoptimized />
+              <Image src="/asset/black-bitcoin-logo.gif" alt="Unique 2" width={120} height={120} className="sm:w-[150px] sm:h-[150px]" unoptimized />
             </motion.div>
-            <p className="pt-3">BlackBitcoin</p>
+            <p className="pt-3 text-sm sm:text-base">BlackBitcoin</p>
           </motion.div>
 
             {/* For Mobile */}
@@ -102,8 +102,8 @@ const Unique = () => {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05, y: -5 }}
           >
-            <Image src="/asset/unique_3.svg" alt="Unique 3" width={150} height={150} />
-            <p className="pt-3">Contributors</p>
+            <Image src="/asset/unique_3.svg" alt="Unique 3" width={120} height={120} className="sm:w-[150px] sm:h-[150px]" />
+            <p className="pt-3 text-sm sm:text-base">Contributors</p>
           </motion.div>
 
           </div>
