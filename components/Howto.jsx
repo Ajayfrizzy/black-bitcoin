@@ -91,7 +91,8 @@ const Howto = () => {
 
             {/* Step 2 */}
             <motion.div 
-              className="flex-1 bg-[#444444] rounded-xl md:w-full w-[80%] md:mx-0 mx-auto md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
+              // className="flex-1 bg-[#444444] rounded-xl w-full md:mx-0 mx-auto md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
+              className="flex-1 bg-[#444444] rounded-xl w-full md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
@@ -148,7 +149,8 @@ const Howto = () => {
 
             {/* Step 3 */}
             <motion.div 
-              className="flex-1 bg-[#444444] rounded-xl md:w-full w-[80%] md:mx-0 mx-auto md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
+              // className="flex-1 bg-[#444444] rounded-xl md:w-full w-[80%] md:mx-0 mx-auto md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
+              className="flex-1 bg-[#444444] rounded-xl w-full md:px-[1.5rem] md:py-[3rem] p-[1.5rem]"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
