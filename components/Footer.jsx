@@ -27,7 +27,7 @@ const Footer = () => {
           Join Our Global Community
         </motion.h2>
         <motion.div 
-          className="flex md:flex-row flex-col justify-center md:gap-3 gap-7  mt-4 text-[#D4D4D4]"
+          className="flex justify-center gap-3 mt-4 text-[#D4D4D4]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
